@@ -1,10 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
+  const [outputText, setOutputText] = useState('Test');
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>{outputText}</Text>
+      <Button title="Verander de tekst" onPress={() => setOutputText('De tekst is veranderd')} />
     </View>
   );
 }
