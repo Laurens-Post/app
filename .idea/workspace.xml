@@ -21,10 +21,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="442">
+              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,7 +99,7 @@
       <updated>1570177301279</updated>
       <workItem from="1570177305955" duration="1017000" />
       <workItem from="1570178378433" duration="1718000" />
-      <workItem from="1571060598645" duration="632000" />
+      <workItem from="1571060598645" duration="2818000" />
     </task>
     <task id="LOCAL-00001" summary="Testing an button onpress action">
       <created>1571061045851</created>
@@ -108,11 +108,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571061045851</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Starting with a small app for setting goals for the map app">
+      <created>1571061281152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571061281152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Using stylesheet object (cleaner code)">
+      <created>1571089954863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571089954863</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3367000" />
+    <option name="totallyTimeSpent" value="5553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -154,27 +168,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing an button onpress action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing an button onpress action" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/App.js</url>
-          <line>19</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Starting with a small app for setting goals for the map app" />
+    <MESSAGE value="Using stylesheet object (cleaner code)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using stylesheet object (cleaner code)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="442">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
