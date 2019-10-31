@@ -7,7 +7,7 @@ import {
     Button
 } from 'react-native';
 
-import Input from '../../components/UI/Input';
+// import Input from '../../components/UI/Input';
 
 const AuthScreen = props => {
     return (
@@ -41,12 +41,17 @@ const AuthScreen = props => {
                     onInputChange={() => {}}
                     initialValue=""
                 />
-                <View style={styles.buttonContainer}>
-                    <Button title="Login" color={Colors.primary} onPress={() => {}} />
-                </View>
-}
+                    <View style={styles.buttonContainer}>
+                        <Button title="Login" color={Colors.primary} onPress={() => {}} />
+                    </View>
+                </ScrollView>
+            </Card>
+        </KeyboardAvoidingView>
+    );
+};
 
     const styles = StyleSheet.create({
-    }
+
+    });
 
     export default AuthScreen;

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf59022-d319-42eb-b215-f9dcfeeae5e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/AuthScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/AuthScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/user/AuthScreen.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/GoalInput.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="208">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/AuthScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="375">
+              <caret line="45" column="31" selection-start-line="18" selection-start-column="10" selection-end-line="45" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -93,14 +92,14 @@
       <list>
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/components/GoalItem.js" />
-        <option value="$PROJECT_DIR$/components/GoalInput.js" />
         <option value="$PROJECT_DIR$/user/AuthScreen.js" />
+        <option value="$PROJECT_DIR$/components/GoalInput.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="452" />
-    <option name="y" value="111" />
+    <option name="x" value="11" />
+    <option name="y" value="51" />
     <option name="width" value="1420" />
     <option name="height" value="777" />
   </component>
@@ -175,7 +174,7 @@
       <workItem from="1570178378433" duration="1718000" />
       <workItem from="1571060598645" duration="3900000" />
       <workItem from="1572291390232" duration="4976000" />
-      <workItem from="1572469551018" duration="3672000" />
+      <workItem from="1572469551018" duration="4877000" />
     </task>
     <task id="LOCAL-00001" summary="Testing an button onpress action">
       <created>1571061045851</created>
@@ -247,11 +246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572470923452</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Starting with setting up login for user authentication">
+      <created>1572513717231</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572513717231</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15283000" />
+    <option name="totallyTimeSpent" value="16488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,7 +269,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="332" y="27" width="1136" height="621" extended-state="0" />
+    <frame x="9" y="41" width="1136" height="621" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.30669144" />
@@ -342,7 +348,8 @@
     <MESSAGE value="Added components folder with 2 files for splitting the content in App.js (else everything is in one file)" />
     <MESSAGE value="Added a modal and added an touchable component for deleting items" />
     <MESSAGE value="Improved the styling + closing button for the modal (canceling)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved the styling + closing button for the modal (canceling)" />
+    <MESSAGE value="Starting with setting up login for user authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting with setting up login for user authentication" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App.js">
@@ -367,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/GoalInput.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="208">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -377,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/AuthScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="375">
+          <caret line="45" column="31" selection-start-line="18" selection-start-column="10" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
