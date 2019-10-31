@@ -42,9 +42,16 @@ const AuthScreen = props => {
                     onInputChange={() => {}}
                     initialValue=""
                 />
-                    <View style={styles.buttonContainer}>
+                <View style={styles.buttonContainer}>
                         <Button title="Login" color={Colors.primary} onPress={() => {}} />
-                    </View>
+                </View>
+                <View style={styles.buttonContainer}>
+                    <Button
+                        title="Register account"
+                        color={Colors.accent}
+                        onPress={() => {}}
+                    />
+                </View>
                 </ScrollView>
             </Card>
         </KeyboardAvoidingView>
