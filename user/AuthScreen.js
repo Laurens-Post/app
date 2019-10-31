@@ -7,7 +7,8 @@ import {
     Button
 } from 'react-native';
 
-// import Input from '../../components/UI/Input';
+// import Input from '../components/UI/Input';
+import Card from '../components/UI/Card';
 
 const AuthScreen = props => {
     return (
@@ -51,7 +52,23 @@ const AuthScreen = props => {
 };
 
     const styles = StyleSheet.create({
-
+        screen: {
+            flex: 1
+        },
+        gradient: {
+            flex: 1,
+            justifyContent: 'center',
+            alignItems: 'center'
+        },
+        authContainer: {
+            width: '80%',
+            maxWidth: 400,
+            maxHeight: 400,
+            padding: 20
+        },
+        buttonContainer: {
+            marginTop: 10
+        }
     });
 
     export default AuthScreen;
